@@ -10,7 +10,7 @@ public interface IUser {
 	//修改用户信息
 	boolean updateUserInfo();
 	//删除用户
-	boolean deleteUser();
+	boolean deleteUser(String name);
 	//查询所有用户
 	List<User> queryAllUser();
 	//按姓名查找用户
